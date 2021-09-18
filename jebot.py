@@ -63,7 +63,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm a File Renamer Bot With Permanent Thumbnail Support!
 
-Made by @ImJanindu 🇱🇰
+Made by @IMkashyapaa 🇱🇰
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -71,10 +71,10 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs"),
+                                            "OUR Channel", url="https://t.me/cgs_officials"),
                                  ],[
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/File-Renamer-Bot")
+                                            "OUR Group", url="https://t.me/cgs_official")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -94,7 +94,7 @@ async def help(client, message):
 
 👉 Finally reply file with <code>/rename NewFile.extension</code>
 
-~ @Infinity_BOTs</b>""",
+~ @IMkashyapaa</b>""",
     reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -103,32 +103,32 @@ async def help(client, message):
                                             "About", callback_data="about"),
                                   ],[
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/File-Renamer-Bot")
+                                            "Contact me", url="https://t.me/IMkashyapaa")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
             parse_mode="html")
 
 @bot.on_message(filters.command("about"))
-async def about(client, message):
+async dev about(client, message):
     if message.chat.type == 'private':   
         await bot.send_message(
                chat_id=message.chat.id,
                text="""<b>About File Renamer!</b>
 
-<b>♞ Developer:</b> <a href="https://t.me/ImJanindu">Janindu 🇱🇰</a>
+<b>♞ Developer:</b> <a href="https://t.me/IMkashyapaa 🇱🇰</a>
 
-<b>♞ Support:</b> <a href="https://t.me/InfinityBOTs_Support">Infinity BOTs Support</a>
+<b>♞ Channel:</b> <a href="https://t.me/cgs_officials">CGS BOTs Support</a>
 
-<b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
+<b>♞ Group:</b> <a href="https://t.me/cgs_official">Pyrogram</a>
 
-<b>~ @Infinity_BOTs</b>""",
+<b>~ @Imkashyapaa </b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "Back", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/File-Renamer-Bot")
+                                            "Contact me", url="https://t.me/IMkashyapaa")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -250,7 +250,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @Infinity_BOTs
+Join @cgs_official
 """
 )
 
