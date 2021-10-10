@@ -63,7 +63,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm a File Renamer Bot With Permanent Thumbnail Support!
 
-Made by @IMkashyapaa 🇱🇰
+Made by @IMkashyapaa🌷
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -116,7 +116,7 @@ async dev about(client, message):
                chat_id=message.chat.id,
                text="""<b>About File Renamer!</b>
 
-<b>♞ Developer:</b> <a href="https://t.me/IMkashyapaa 🇱🇰</a>
+<b>♞ Developer:</b> <a href="https://t.me/IMkashyapaa🌷</a>
 
 <b>♞ Channel:</b> <a href="https://t.me/cgs_officials">CGS BOTs Support</a>
 
