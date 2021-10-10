@@ -7,7 +7,7 @@ class Translation(object):
     RCHD_TG_API_LIMIT = "<b>Downloaded in {} seconds.\nDetected File Size: {}\nWTF 😬, I cannot upload files greater than 1.5GB due to Telegram API limitations 😒</b>"
     AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>If you find this bot useful, please share with your friends and family. If any complaints contact @InfinityBOTs_Support</b>"
     SAVED_RECVD_DOC_FILE = "<b>Document Downloaded Successfully 😙</b>"
-    CUSTOM_CAPTION_UL_FILE = "Uploaded by @FileRenamerIBot"
+    CUSTOM_CAPTION_UL_FILE = "Uploaded by @IMkashyapaa"
     REPLY_TO_DOC_FOR_RENAME_FILE = "<b>Reply to a Telegram media with new file name</b>"
     DEL_ETED_CUSTOM_THUMB_NAIL = "<b>✅ Custom thumbnail cleared succesfully.</b>"
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "<b>✅ Media cleared succesfully.</b>"
